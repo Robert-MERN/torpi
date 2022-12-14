@@ -1,17 +1,16 @@
 import React from 'react'
 import Image from "next/image";
-import illustration from "../../public/images/illustration5.jpg";
+import illustration from "../../public/images/illustration5.png";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
 
 const Section4 = () => {
     return (
-        <div className='w-screen h-fit flex flex-col items-center' >
-            <div className='flex flex-col lg:flex-row w-full lg:px-[300px] px-[12px] h-[65vh]' >
-
-
-                <div className='flex-1  lg:pl-12 lg:pr-20 flex flex-col justify-center'>
+        <div className='w-screen h-fit flex justify-center px-[12px]' >
+            <div className='w-full lg:w-[1200px] flex flex-col items-center' >
+            <div className='flex flex-col lg:flex-row w-full h-[65vh]' >
+                <div className='flex-1 lg:pr-20 flex flex-col justify-center'>
                     <div className='mb-6 lg:mb-8' >
                         <h1 className={`text-stone-800 text-[36px] lg:text-[40px] leading-tight font-medium whitespace-normal`} >
                             Hit your number
@@ -37,6 +36,8 @@ const Section4 = () => {
 
 
             </div>
+            </div>
+
         </div>
     )
 }

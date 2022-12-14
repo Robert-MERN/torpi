@@ -37,8 +37,8 @@ const Footer = () => {
     sethover((prev) => ({ ...prev, [key]: bool }))
   }
   return (
-    <div className='pt-12 pb-8 px-[348px] w-full border-t border-stone-300 flex flex-col gap-16 bg-white' >
-      <div className='w-full flex justify-between' >
+    <div className='pt-12 pb-8  w-screen border-t border-stone-300 flex flex-col items-center gap-16 bg-white px-[20px]' >
+      <div className='lg:w-[1200px] w-full flex flex-col md:flex-row justify-between' >
         <div className='flex-1 flex flex-col gap-6 pr-8' >
           <Logo />
           <p className='text-[20px] text-stone-700 font-medium'>We take the work out of connecting with others so you can accomplish more.</p>
@@ -76,13 +76,13 @@ const Footer = () => {
             <CallIcon className='mr-3' ></CallIcon> <span>647-660-1776</span>
           </a>
           <a rel="noreferrer noopener" href="mailto:torpi@gmail.com.com" className=" text-stone-700 font-medium hover:text-black transition-all">
-            <MailIcon className='mr-3' ></MailIcon> <span>morpi@gmail.com</span>
+            <MailIcon className='mr-3' ></MailIcon> <span>Turpio@gmail.com</span>
           </a>
         </div>
 
       </div>
       <div className='w-full flex justify-center' >
-        <p className='text-[15px] text-stone-500 font-medium' > © Copyright 2022. All Rights Reserved by Morpi.</p>
+        <p className='text-[15px] text-stone-500 font-medium' > © Copyright 2022. All Rights Reserved by Turpio.</p>
       </div>
     </div>
 

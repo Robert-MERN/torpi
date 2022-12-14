@@ -10,15 +10,17 @@ const Logo = ({ title }) => {
         <Link href="/" >
             <div className={`flex gap-4 select-none cursor-pointer items-center ${styles.logo1}`} >
 
-                <div className={`w-[60px] h-[60px] flex justify-center items-center bg-gradient-to-bl from-sky-500 to-violet-700 rounded-[0.60rem]`} >
-
+                <div className={`w-[60px] h-[60px] flex justify-center items-center`} >
                     <Image
                         alt="logo"
                         src={logoImg}
                         className="object-contain w-full h-full"
                     />
                 </div>
-                <p className='text-violet-700 text-[32px] font-black' >Morpi</p>
+
+                {title !== "off" &&
+                    <p className='text-violet-700 text-[32px] font-black' >Turpio</p>
+                }
             </div>
         </Link>
     )

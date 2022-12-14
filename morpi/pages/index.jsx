@@ -7,6 +7,9 @@ import Section2 from '../components/landingPage/Section2'
 import Section3 from '../components/landingPage/Section3'
 import Section4 from '../components/landingPage/Section4'
 import { useEffect, useState } from 'react'
+import { useRouter } from "next/router";
+
+
 
 
 
@@ -14,9 +17,9 @@ export default function Home() {
   return (
     <div className={`w-screen h-screen relative ${styles.container}`} >
       <Head>
-        <title>Free Online Appointment Scheduling Software | Morpi</title>
+        <title>Free Online Appointment Scheduling Software | Turpio</title>
         <meta name="description" content="Free Online Appointment Scheduling Software | Morpi" />
-        <link rel="icon" href="/images/favicon.png" />
+        <link rel="icon" href="/images/logo.png" />
       </Head>
       <Navbar />
       {/* <Logo /> */}
@@ -25,7 +28,7 @@ export default function Home() {
       <Section3 />
       <Section4 />
       <Footer />
-     
+
 
     </div>
   )

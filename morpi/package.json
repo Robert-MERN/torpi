@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "heroku-postbiuld": "npm run build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,9 +13,18 @@
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.13",
+    "@mui/x-date-pickers": "^5.0.8",
+    "axios": "^1.2.0",
+    "dayjs": "^1.11.6",
+    "material-ui-phone-number": "^3.0.0",
+    "moment-timezone": "^0.5.39",
+    "mongoose": "^6.8.0",
     "next": "13.0.2",
+    "nextjs-progressbar": "0.0.16",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-quill": "^2.0.0",
+    "react-quilljs": "^1.3.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
